@@ -1,7 +1,7 @@
 # Lauritzen_Hoffman theory for polymer crystallization
 
 Package for computing secondary nucleation constants from DSC measurements Enthalpy vs time
-
+[link](https://nvlpubs.nist.gov/nistpubs/jres/64A/jresv64An1p73_A1b.pdf)
 ## Installation
 ```
 pip install lauritzen-hoffman
