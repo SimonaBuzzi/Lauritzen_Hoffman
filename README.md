@@ -5,6 +5,7 @@ Package for computing secondary nucleation constants from DSC measurements Entha
 ## Installation
 ```
 pip install lauritzen-hoffman
+
 ```
 ## Example usage
 ```
@@ -20,3 +21,4 @@ T0m = your value (kelvin)
 R = 1.99
 
 kg, lgI0 = lh_growth_model(file_path, initial_guess, T_range, Area, U, R, Tinf, T0m)
+
