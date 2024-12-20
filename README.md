@@ -10,6 +10,7 @@ pip install lauritzen-hoffman
 ```
 # Example usage
 ```
+```
 from lauritzen_hoffman.linear_rate import lh_growth_model
 
 file_path = 'file_path'
