@@ -43,13 +43,13 @@ from lauritzen_hoffman.linear_rate import lh_growth_model
 ```python
 from lauritzen_hoffman.linear_rate import lh_growth_model
 
-# Define file path to your DSC data
+# Define file path 
 file_path = 'path_to_your_dsc_data.csv'
 
-# Set initial guess for the fitting parameters
+# Set initial guess 
 initial_guess = [value1, value2, ...]
 
-# Define constants and conditions
+# Conditions
 Area = 1.300149 * (10 ** -12)  # Example area in square meters
 T_range = [T1, T2, T3, ...]   # List of temperature values in Kelvin
 U = your_value                 # Activation energy for transport (e.g., kJ/mol)
@@ -57,7 +57,7 @@ Tinf = your_value              # Theoretical temperature below which no motion o
 T0m = your_value               # Equilibrium melting temperature (Kelvin)
 R = 1.99                       # Universal gas constant (J/(mol*K))
 
-# Run the Lauritzen-Hoffman model
+# Run
 kg, lgI0 = lh_growth_model(file_path, initial_guess, T_range, Area, U, R, Tinf, T0m)
 
 # Results
