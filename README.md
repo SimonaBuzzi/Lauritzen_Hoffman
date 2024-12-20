@@ -7,10 +7,6 @@ Package for computing secondary nucleation constants from DSC measurements Entha
 pip install lauritzen-hoffman
 
 ```
-# Version available 
-```
-pypi.org/project/lauritzen-hoffman/1.0/
-
 ```
 # Example usage
 ```
